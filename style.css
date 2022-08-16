@@ -1,0 +1,140 @@
+body {
+    background-color: pink;
+}
+.cart{
+    padding: 1em;
+    width: 100%;
+    margin-top: 2em;
+    background-color: white;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+td{
+    text-align: center;
+    vertical-align: bottom;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;}
+    .main{
+        flex: 1;
+        margin: auto;
+        display: flex;
+    }
+    .display{
+        display: flex;
+    }
+    .a2{
+        margin: 1em;
+        padding: 1em;
+    }
+    .aa{
+        margin-left: 50%;
+        display: flex;
+    }
+    .h1{
+        background-color: whitesmoke;
+        size: 5em;
+        font-size: large;
+        text-align: center;
+
+    }
+    .h2{
+        font-size: larger;
+        font-style: normal;
+        color: black solid;
+    }
+    .btn{
+        background-color:pink;
+        margin: 1em;
+        font-size: medium;
+        border-radius: 1em;
+    }
+    .btn5{
+        background-color: pink;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+    .btn6{
+        background-color: pink;
+        width: 60px;
+        border-radius: 0.3em;
+    }
+    .btn7{
+        background-color: pink;
+        width: 60px;
+        border-radius: 0.3em;
+    }
+    .btnopen{
+        color: black;
+        background-color: pink;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+    .btn2{
+        color: black;
+        background-color: pink;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+
+    .messege{
+        background-color: white;
+        color: black;
+        margin: 1em;
+        font-size: large;
+    }
+    .cart-box{
+        display: inline;
+        background-color: blueviolet;
+    }
+.small {
+padding: 1em;
+margin: 1em;
+background-color:white;
+  border: 10px solid black;
+
+}
+.Medium {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border: 5px solid black;
+    opacity: 2;
+  
+}
+.Large {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border: 2px solid black;
+    opacity: 2;
+  
+  
+} 
+.contact {
+    padding: 1em;
+    margin: 1em;
+    background-color:white;
+    display: flex;
+}
+.heading {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+}
+@media(min-width: 768px) {
+    .body {
+        background-color: azure;
+    }
+    .pizzas {
+        display: flex;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 1em;
+    }
+}
